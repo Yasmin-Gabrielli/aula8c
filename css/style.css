@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(213, 213, 213);
+    align-content: center;
+}
+section{
+    width: 80%;
+    height: 300px;
+    background-color: rgb(176, 176, 176);
+    margin: 10px auto;
+    display: flex ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+.ft {
+    /* O formato é: nome duração tipo repetição */
+    animation: rodar 2s linear infinite; 
+}
+
+@keyframes rodar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
